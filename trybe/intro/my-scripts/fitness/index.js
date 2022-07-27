@@ -35,7 +35,7 @@ const askName = () => {
 
     console.log(message);
   
-    fs.appendFileSync('imc.txt', message);
+    fs.appendFileSync('imc.txt', message); 
   }
   
-  main();
+  main(); // chamada da função main 
